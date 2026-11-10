@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <title>Wildflowers of Texas &middot; flowers</title>
+
+    <link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="/omeka-3.2.2/items/browse?output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="/omeka-3.2.2/items/browse?output=atom" />
+    <!-- Plugin Stuff -->
+
+    
+
+    <!-- Stylesheets -->
+    <link href="/omeka-3.2.2/application/views/scripts/css/iconfonts.css?v=3.2.2" media="all" rel="stylesheet" type="text/css" >
+<link href="/omeka-3.2.2/application/views/scripts/css/public.css?v=3.2.2" media="all" rel="stylesheet" type="text/css" >
+<link href="/omeka-3.2.2/themes/default/css/style.css?v=3.2.2" media="all" rel="stylesheet" type="text/css" >
+<link href="//fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic" media="all" rel="stylesheet" type="text/css" >    <style>
+    :root {
+        --background-color: #FFFFFF;
+        --text-color: #393939;
+        --link-color: #6c6c6c;
+        --button-color: #000000;
+        --button-text-color: #FFFFFF;
+        --title-color:  #000000;
+        --thumbnail-size: 100px;
+    }
+
+    body {
+        background-color: var(--background-color);
+        color: var(--text-color);
+    }
+    #site-title a:link, #site-title a:visited,
+    #site-title a:active, #site-title a:hover {
+        color: var(--title-color);
+            }
+    a {
+        color: var(--link-color);
+    }
+
+    .button, button,
+    input[type="reset"],
+    input[type="submit"],
+    input[type="button"] {
+        background-color: var(--button-color);
+        color: var(--button-text-color);
+    }
+
+    #search-form input[type="text"] {
+        border-color: var(--button-color)
+    }
+
+    .record img,
+    .browse .item-img,
+    .browse .image,
+    .browse #content .item img,
+    .browse .item #content img,
+    .browse .image img,
+    #recent-items img.image {
+        height: var(--thumbnail-size);
+    }
+
+    @media (max-width:768px) {
+        #primary-nav li {
+            background-color: var(--button-color);
+        }
+
+        #primary-nav ul.navigation .sub-nav-toggle:after,
+        #primary-nav li a {
+            color: var(--button-text-color);
+        }
+    }
+</style>    <!-- JavaScripts -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery || document.write("<script type=\"text\/javascript\" src=\"\/omeka-3.2.2\/application\/views\/scripts\/javascripts\/vendor\/jquery.js?v=3.2.2\" charset=\"utf-8\"><\/script>"); window.jQuery.uiBackCompat = true    //-->
+</script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery.ui || document.write("<script type=\"text\/javascript\" src=\"\/omeka-3.2.2\/application\/views\/scripts\/javascripts\/vendor\/jquery-ui.js?v=3.2.2\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript" src="/omeka-3.2.2/application/views/scripts/javascripts/vendor/jquery.ui.touch-punch.js"></script>
+<script type="text/javascript">
+    //<!--
+    jQuery.noConflict();    //-->
+</script>
+<!--[if (gte IE 6)&(lte IE 8)]><script type="text/javascript" src="/omeka-3.2.2/application/views/scripts/javascripts/vendor/selectivizr.js?v=3.2.2"></script><![endif]-->
+<script type="text/javascript" src="/omeka-3.2.2/application/views/scripts/javascripts/vendor/respond.js?v=3.2.2"></script>
+<script type="text/javascript" src="/omeka-3.2.2/application/views/scripts/javascripts/vendor/jquery-accessibleMegaMenu.js?v=3.2.2"></script>
+<script type="text/javascript" src="/omeka-3.2.2/application/views/scripts/javascripts/globals.js?v=3.2.2"></script>
+<script type="text/javascript" src="/omeka-3.2.2/themes/default/javascripts/default.js?v=3.2.2"></script></head>
+<body class="collections show">
+    
+    <div id="skipnav">
+        <span class="spacer">&nbsp;</span>
+        <a href="#content">Skip to main content</a>
+    </div>
+    
+        <header role="banner">
+                        <div id="site-title"><a href="http://localhost/omeka-3.2.2" >flowers</a>
+</div>
+        </header>
+
+        <div id="wrap">
+            <button type="button" class="menu-button button" aria-expanded="false" aria-controls="primary-nav">Menu <span class="menu-icon" aria-hidden="true"></span></button>
+            <nav id="primary-nav" role="navigation" aria-label="Main navigation">
+                <ul class="navigation">
+    <li>
+        <a href="/omeka-3.2.2/items/browse">Browse Items</a>
+    </li>
+    <li>
+        <a href="/omeka-3.2.2/collections/browse">Browse Collections</a>
+    </li>
+</ul>                <div id="search-container" role="search">
+                    <form id="search-form" name="search-form" class="" action="/omeka-3.2.2/search" aria-label="flowers" method="get">    <input type="text" name="query" id="query" value="" title="Query" aria-label="Query" aria-labelledby="search-form query">            <input type="hidden" name="query_type" value="keyword" id="query_type">                <input type="hidden" name="record_types[]" value="Item">                <input type="hidden" name="record_types[]" value="File">                <input type="hidden" name="record_types[]" value="Collection">                <button name="submit_search" id="submit_search" type="submit" value="Submit" title="Submit" class="button" aria-label="Submit" aria-labelledby="search-form submit_search"><span class="icon" aria-hidden="true"></span></button></form>
+                </div>
+            </nav>
+            <div id="content" role="main" tabindex="-1">
+                
+<h1>Wildflowers of Texas</h1>
+
+<div class="element-set">
+        <h2>Dublin Core</h2>
+            <div id="dublin-core-title" class="element">
+        <h3>Title</h3>
+                    <div class="element-text">Wildflowers of Texas</div>
+            </div><!-- end element -->
+        <div id="dublin-core-description" class="element">
+        <h3>Description</h3>
+                    <div class="element-text">digital collection of texas wildflowers</div>
+            </div><!-- end element -->
+    </div><!-- end element-set -->
+
+<div id="collection-items">
+    <h2>Collection Items</h2>
+    <div class="item record">
+        <div class="title"><a href="/omeka-3.2.2/items/show/1"><img class="image" alt="" title="OPHS (1).jpg" src="/omeka-3.2.2/application/views/scripts/images/fallback-image.png">Denton flowers</a></div>
+            <p class="item-description">flowers spotted in denton. </p>
+    </div>
+<div class="item record">
+        <div class="title"><a href="/omeka-3.2.2/items/show/2"><img class="image" alt="" title="Screenshot_1-11-2026_224724_www.bing.com.jpeg" src="/omeka-3.2.2/application/views/scripts/images/fallback-image.png">Argyle Flowers</a></div>
+            <p class="item-description">flowers spotted in argyle.</p>
+    </div>
+<div class="item record">
+        <div class="title"><a href="/omeka-3.2.2/items/show/3"><img class="image" alt="" title="OPHS.jpg" src="/omeka-3.2.2/application/views/scripts/images/fallback-image.png">Bartonville Flowers</a></div>
+            <p class="item-description">flowers found in bartonville</p>
+    </div>
+<div class="item record">
+        <div class="title"><a href="/omeka-3.2.2/items/show/4"><img class="image" alt="" title="ODL.jpg" src="/omeka-3.2.2/application/views/scripts/images/fallback-image.png">Southlake Flowers</a></div>
+            <p class="item-description">flowers found in Southlake</p>
+    </div>
+<div class="item record">
+        <div class="title"><a href="/omeka-3.2.2/items/show/5"><img class="image" alt="" title="OIP.jpg" src="/omeka-3.2.2/application/views/scripts/images/fallback-image.png">Trophy Club Flowers</a></div>
+            <p class="item-description">flowers found in trophy club</p>
+    </div>
+<a href="/omeka-3.2.2/items/browse?collection=1" class="view-items-link button">View all 5 items</a></div><!-- end collection-items -->
+
+
+        </div><!-- end content -->
+
+    </div><!-- end wrap -->
+
+
+    <footer role="contentinfo">
+
+        <div id="footer-text">
+            <div class="custom-footer-text">
+                        </div>
+                        <p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p>
+        </div>
+
+        
+    </footer><!-- end footer -->
+
+    <script type="text/javascript">
+    jQuery(document).ready(function () {
+        Omeka.showAdvancedForm();
+        Omeka.skipNav();
+        ThanksRoy.mobileMenu();
+    });
+    </script>
+
+</body>
+</html>
